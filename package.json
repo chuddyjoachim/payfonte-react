@@ -1,6 +1,10 @@
 {
   "name": "payfonte-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chuddyjoachim/payfonte-react.git"
+  },
   "description": "This is an reactJS library for implementing payfonte payment checkout",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -13,16 +17,19 @@
     "dev": "microbundle-crl watch --no-compress --format modern,cjs",
     "lint": "tsc && eslint . && prettier --check ./**/*.{ts}",
     "lint:fix": "eslint --fix . && prettier --write .",
-    "nuke": "rm -rf build node_modules"
+    "nuke": "rm -rf dist node_modules"
   },
   "keywords": [
     "Javascript",
+    "Typescript",
     "payment",
+    "checkout",
+    "payfusion",
     "payfonte",
     "payment orchestrator",
     "payfonte-react"
   ],
-  "author": "chuddyjoachim",
+  "author": "Chikezie Joachim",
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
