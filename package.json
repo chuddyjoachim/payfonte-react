@@ -17,7 +17,8 @@
     "dev": "microbundle-crl watch --no-compress --format modern,cjs",
     "lint": "tsc && eslint . && prettier --check ./**/*.{ts}",
     "lint:fix": "eslint --fix . && prettier --write .",
-    "nuke": "rm -rf dist node_modules"
+    "nuke": "rm -rf dist node_modules",
+    "ci": "npm run lint && npm run build"
   },
   "keywords": [
     "Javascript",
