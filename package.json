@@ -15,7 +15,7 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "dev": "microbundle-crl watch --no-compress --format modern,cjs",
-    "lint": "tsc && eslint . && prettier --check ./**/*.{ts}",
+    "lint": "tsc && eslint -c ./.eslintrc.json . --ext ts,tsx ./src/ && prettier --check ./**/*.{ts}",
     "lint:fix": "eslint --fix . && prettier --write .",
     "nuke": "rm -rf dist node_modules",
     "ci": "npm run lint && npm run build"
