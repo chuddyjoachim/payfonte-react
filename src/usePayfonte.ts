@@ -65,10 +65,6 @@ export const usePayfonte = ({
     metadata = {}
   }: PayfontePaymentProps) => {
     try {
-      if (!user) {
-        throw new Error('No user object passed')
-      }
-
       const { name, email, phoneNumber } = user
       const customer = {
         name,

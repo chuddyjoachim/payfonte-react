@@ -1,1 +1,1 @@
-export * as usePayfonte from './usePayfonte'
+export { usePayfonte } from './usePayfonte'
