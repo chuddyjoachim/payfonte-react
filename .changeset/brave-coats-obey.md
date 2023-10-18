@@ -1,5 +1,0 @@
----
-'payfonte-react': patch
----
-
-fix

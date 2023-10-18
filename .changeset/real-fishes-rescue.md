@@ -2,4 +2,4 @@
 '@payfonte/payfonte-react': patch
 ---
 
-changes
+rm sets
