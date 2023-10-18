@@ -19,7 +19,8 @@
     "lint:fix": "eslint --fix . && prettier --write .",
     "nuke": "rm -rf dist node_modules",
     "ci": "npm run lint && npm run build",
-    "release": "npm run lint && npm run build && changeset publish"
+    "release": "npm run lint && npm run build && changeset publish",
+    "changeset": "npx changeset"
   },
   "keywords": [
     "Javascript",
