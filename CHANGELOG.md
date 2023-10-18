@@ -1,5 +1,11 @@
 # @payfonte/payfonte-react
 
+## 0.0.4
+
+### Patch Changes
+
+- e8267fd: update readme and expose payfontePayment props tye
+
 ## 0.0.3
 
 ### Patch Changes
