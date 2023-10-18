@@ -75,6 +75,8 @@ export const usePayfonte = ({
       initializePayment({ clientId, ...config })
     } catch (e) {
       throw new Error(errorMsg)
+    } finally {
+      setPaymentIsLoading(true)
     }
   }
 
