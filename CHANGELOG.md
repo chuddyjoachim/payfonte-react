@@ -1,5 +1,11 @@
 # @payfonte/payfonte-react
 
+## 0.0.6
+
+### Patch Changes
+
+- ebad2e6: fix typo and imports
+
 ## 0.0.5
 
 ### Patch Changes
