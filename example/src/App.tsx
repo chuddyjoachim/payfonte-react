@@ -1,5 +1,5 @@
 import './App.css'
-import { usePayfonte, PayfontePaymentProps } from 'payfonte-react'
+import { usePayfonte, PayfontePaymentProps } from '@payfonte/payfonte-react'
 
 function App() {
   const onClose = () => {

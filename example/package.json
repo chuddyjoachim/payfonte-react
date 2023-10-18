@@ -21,8 +21,8 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "@payfonte/payfonte-react": "file:../dist",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "payfonte-react": "file:.."
+    "vite": "^4.4.5"
   }
 }

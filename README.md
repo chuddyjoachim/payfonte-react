@@ -22,7 +22,7 @@ npm install @payfonte/payfonte-react
 1. Import the `usePayfonte` hook:
 ```jsx
 import React from 'react';
-import { usePayfonte, PayfontePaymentProps } from 'payfonte-react'
+import { usePayfonte, PayfontePaymentProps } from '@payfonte/payfonte-react'
 ```
 
 2. Create your `onSuccess`, and `onClose` callback functions to be passed when hooks is initialised:
