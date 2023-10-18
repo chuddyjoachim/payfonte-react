@@ -1,5 +1,11 @@
 # @payfonte/payfonte-react
 
+## 0.0.5
+
+### Patch Changes
+
+- c991913: publish config
+
 ## 0.0.4
 
 ### Patch Changes
