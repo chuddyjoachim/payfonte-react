@@ -1,5 +1,12 @@
 # @payfonte/payfonte-react
 
+## 0.0.3
+
+### Patch Changes
+
+- eccd662: minor
+- 60eed51: fic prv
+
 ## 0.0.2
 
 ### Patch Changes
