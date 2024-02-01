@@ -1,5 +1,11 @@
 # @payfonte/payfonte-react
 
+## 0.0.7
+
+### Patch Changes
+
+- f0f827f: require country field in payment props
+
 ## 0.0.6
 
 ### Patch Changes
