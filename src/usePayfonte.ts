@@ -62,6 +62,7 @@ export const usePayfonte = ({
     reference,
     user,
     currency,
+    country,
     metadata = {}
   }: PayfontePaymentProps) => {
     try {
@@ -71,7 +72,14 @@ export const usePayfonte = ({
         email,
         phoneNumber
       }
-      const config = { amount, customer, reference, currency, metadata }
+      const config = {
+        amount,
+        customer,
+        reference,
+        country,
+        currency,
+        metadata
+      }
       initializePayment({ clientId, ...config })
     } catch (e) {
       throw new Error(errorMsg)

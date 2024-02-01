@@ -8,6 +8,7 @@ export type PayfontePaymentProps = {
   amount: number
   reference: string
   currency: string
+  country: string
   user: PayfonteUser
   metadata?: Record<string, any>
 }

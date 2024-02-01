@@ -1,5 +1,7 @@
 # payfonte-react
 
+[![Publish](https://github.com/chuddyjoachim/payfonte-react/actions/workflows/publish.yml/badge.svg)](https://github.com/chuddyjoachim/payfonte-react/actions/workflows/publish.yml)
+
 <div>
     <img src='./test-usd.png' alt='payfonte-usd' />
     <img src='./test-ngn.png' alt='payfonte-ngn' />
