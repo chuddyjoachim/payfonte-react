@@ -1,5 +1,11 @@
 # @payfonte/payfonte-react
 
+## 0.1.0
+
+### Minor Changes
+
+- c9d5c62: new environment flag
+
 ## 0.0.7
 
 ### Patch Changes
