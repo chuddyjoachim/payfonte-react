@@ -5,9 +5,9 @@ import { payfonteIframeHandler } from './action'
 
 export const usePayfonte = ({
   clientId,
+  environment = 'production',
   onClose,
-  onSuccess,
-  isProduction
+  onSuccess
 }: PayfonteInitProps) => {
   const [isPaymentLoading, setPaymentIsLoading] = useState(false)
   const [scriptLoaded, scriptError] = useScript()
@@ -31,7 +31,7 @@ export const usePayfonte = ({
     try {
       if (scriptLoaded) {
         const payfonteArgs = {
-          isProduction, // can be true of false
+          environment, // can be true of false
           reference, // if you have your own transactionId you want to track this payment with
           clientId, // required, Your client-id
           amount, // required Amount in kobo
@@ -53,6 +53,7 @@ export const usePayfonte = ({
         await payfonteIframeHandler(payfonteArgs)
       }
     } catch (e) {
+      console.log('PAYFONTE ERRROR', e)
       throw new Error(errorMsg)
     }
   }

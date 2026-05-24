@@ -17,5 +17,5 @@ export type PayfonteInitProps = {
   onClose: () => void
   onSuccess: (data: Record<string, any>) => void
   clientId: string
-  isProduction: boolean
+  environment?: 'production' | 'sandbox'
 }
