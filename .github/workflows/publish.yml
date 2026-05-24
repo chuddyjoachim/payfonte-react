@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 20.x
 
       - run: npm install --frozen-lockfile
       - name: Create and release pull request or publish
@@ -24,4 +24,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-
